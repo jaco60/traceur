@@ -4,7 +4,7 @@ import "fmt"
 
 func Init()                { fmt.Println("draw mode") }
 func Forward(step float64) { fmt.Printf("forward %f\n", step) }
-func Step(step float64)    { fmt.Println("forward 1") }
+func Step()                { fmt.Println("forward 1") }
 func Right()               { fmt.Println("right") }
 func Left()                { fmt.Println("left") }
 func Say(mess string)      { fmt.Printf("say %s\n", mess) }
