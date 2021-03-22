@@ -1,5 +1,7 @@
 package traceur
 
+import "fmt"
+
 func Init()                { fmt.Println("draw mode") }
 func Forward(step float64) { fmt.Printf("forward %f\n", step) }
 func Right()               { fmt.Println("right") }
